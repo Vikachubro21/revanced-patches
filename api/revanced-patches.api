@@ -267,6 +267,12 @@ public final class app/revanced/patches/music/audio/exclusiveaudio/ExclusiveAudi
 	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
 }
 
+public final class app/revanced/patches/music/integration/discord/DiscordIntegrationPatch : app/revanced/patcher/patch/BytecodePatch {
+	public static final field INSTANCE Lapp/revanced/patches/music/integration/discord/DiscordIntegrationPatch;
+	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
+	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+}
+
 public final class app/revanced/patches/music/interaction/permanentrepeat/PermanentRepeatPatch : app/revanced/patcher/patch/BytecodePatch {
 	public static final field INSTANCE Lapp/revanced/patches/music/interaction/permanentrepeat/PermanentRepeatPatch;
 	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
