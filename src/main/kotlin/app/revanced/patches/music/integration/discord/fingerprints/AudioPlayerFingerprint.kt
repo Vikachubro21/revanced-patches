@@ -2,7 +2,7 @@ package app.revanced.patches.music.integration.discord.fingerprints
 
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.MethodFingerprint
-import app.revanced.patcher.fingerprint.annotation.FuzzyPatternScanMethod
+//import app.revanced.patcher.fingerprint.annotation.FuzzyPatternScanMethod
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
